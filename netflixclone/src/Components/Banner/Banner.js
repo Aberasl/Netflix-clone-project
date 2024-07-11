@@ -14,7 +14,9 @@ const Banner = () => {
           request.data.results[
             Math.floor(Math.random() * request.data.results.length)
           ]
+          
         );
+        
       } catch (error) {
         console.log("error", error);
       }
